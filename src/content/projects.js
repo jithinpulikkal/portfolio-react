@@ -6,7 +6,7 @@ const projects = [
       "an innovative online fashion destination. Built on a foundation of Node.js, Express.js, and MongoDB, this platform combines cutting-edge technology with top-notch style.",
     stack: ["NodeJS", "Express", "MongoDB"],
     sourceCode: "https://github.com/jithinpulikkal/Coza",
-    img: "https://media.licdn.com/dms/image/D5622AQFhDeMkmfTtlw/feedshare-shrink_2048_1536/0/1693033376814?e=1706745600&v=beta&t=o24XBIw25GM0nnyDpiaLfPkXfqb2TbGhSk5NtCsMJYI",
+    img: "https://shopcoza.com/cdn/shop/files/orange_square.png?v=1658871095&width=1500",
     preview: "https://cozastore.host/",
   },
   {

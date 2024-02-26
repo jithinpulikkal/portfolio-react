@@ -9,7 +9,7 @@ const socials = [
   },
   {
     icon: "instagram.svg",
-    url: "https://www.instagram.com/_jp_dev_/",
+    url: "https://www.instagram.com/_jp_dev_?igsh=MTA0bm43OWwyNDJoZg%3D%3D&utm_source=qr",
   },
 
 ];

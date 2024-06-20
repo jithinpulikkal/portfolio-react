@@ -7,7 +7,7 @@ const projects = [
     stack: ["NodeJS", "Express", "MongoDB"],
     sourceCode: "https://github.com/jithinpulikkal/Coza",
     img: "https://shopcoza.com/cdn/shop/files/orange_square.png?v=1658871095&width=1500",
-    preview: "https://cozastore.host/",
+    preview: "https://cozastore.fun/",
   },
   {
     name: "Netflix Clone",

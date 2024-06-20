@@ -21,7 +21,8 @@ const Navbar = (props) => {
         </label>
         <ul className="menu">
           <li>
-            <a href="https://drive.google.com/file/d/19-rg1hkiiXVDnU1oG-KEN61yPBKXtBLO/view?usp=sharing">Resume</a>
+            <a href="https://drive.google.com/file/d/1UZu5Bw2_wJMrvwv_b6eptMAFl-tkjyMf/view?usp=drive_link">Resume</a>
+            
           </li>
 
           <li>

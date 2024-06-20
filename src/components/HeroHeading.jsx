@@ -2,10 +2,10 @@ const HeroHeading = () => {
   const typedSpan = document.getElementById("typed");
   const totype = [
     "MERN STACK DEVELOPER",
-    "Node.js",
+    "MongoDB",
     "Express.js",
     "React.js",
-    "MongoDB",
+    "Node.js",
   ];
 
   const delayTyping_char = 100;

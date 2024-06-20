@@ -33,10 +33,10 @@ const Hero = (props) => {
           options={{
             strings: [
               "MERN STACK DEVELOPER",
-              "Node.js",
+              "MongoDB",
               "Express.js",
               "React.js",
-              "MongoDB",
+              "Node.js",
             ],
             autoStart: true,
             loop: true,

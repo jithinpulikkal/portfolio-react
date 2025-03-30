@@ -1,6 +1,15 @@
 //projects start
 const projects = [
   {
+    name: "Let's Chat",
+    description:
+      "Developed a real-time messaging application with instant text and image communication. Full-stack implementation using React, Tailwind CSS, Socket.IO, Node.js, MongoDB, and Cloudinary. Deployed on Onrender.",
+    stack: ["ReactJS", "NodeJS", "Express", "MongoDB"],
+    sourceCode: "https://github.com/jithinpulikkal/chap",
+    img: "https://shopcoza.com/cdn/shop/files/orange_square.png?v=1658871095&width=1500",
+    preview: "https://chap.onrender.com/",
+  },
+  {
     name: "Coza Store",
     description:
       "an innovative online fashion destination. Built on a foundation of Node.js, Express.js, and MongoDB, this platform combines cutting-edge technology with top-notch style.",

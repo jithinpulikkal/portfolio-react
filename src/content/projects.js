@@ -6,7 +6,7 @@ const projects = [
       "Developed a real-time messaging application with instant text and image communication. Full-stack implementation using React, Tailwind CSS, Socket.IO, Node.js, MongoDB, and Cloudinary. Deployed on Onrender.",
     stack: ["ReactJS", "NodeJS", "Express", "MongoDB"],
     sourceCode: "https://github.com/jithinpulikkal/chap",
-    img: "/Lets chat.jpg",
+    img: "/Lets chat.png",
     preview: "https://chap.onrender.com/",
   },
   {

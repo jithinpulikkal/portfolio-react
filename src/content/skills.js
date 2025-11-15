@@ -9,14 +9,17 @@ const skills = [
   "react.svg",
   "redux.svg",
   "mongodb.svg",
-  "mysql.svg",
+  "mysql.png",
   "postgresql.svg",
   "git.svg",
   "github.svg",
   "postman.svg",
   "npm.svg",
+  "vite.svg",
   "tailwind.svg",
   "aws.svg",
+  "socket.png",
+  "expo-go.png",
 
 ]; // Add or remove skills here, make sure to include the image respective to the skill inside the public/skills folder and use the correct file extension
 

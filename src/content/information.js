@@ -5,6 +5,7 @@ const userData = {
     firstName: "Jithin",
     lastName: "Pulikkal",
     role: "MERN Stack & React Native Developer",
+    stack: "Full Stack Developer",
     location: "Kerala, India",
     experience: "2+ yrs",
     specialty: "Full stack",

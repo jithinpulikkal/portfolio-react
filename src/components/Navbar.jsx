@@ -1,7 +1,4 @@
-// Navbar.js
 import PropTypes from "prop-types";
-
-import "../App.css";
 
 const Navbar = (props) => {
     return (

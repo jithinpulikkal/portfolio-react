@@ -1,16 +1,26 @@
 import profileImg from "../assets/profile.jpeg";
 
 const userData = {
-    firstName: "< Jithin",
-    lastName: " P />",
-    title: "About Me",
-    // img: "https://img.freepik.com/premium-photo/there-is-red-white-floral-wallpaper-with-bunch-flowers-generative-ai_958192-24831.jpg",
+    name: "Jithin Pulikkal",
+    firstName: "Jithin",
+    lastName: "Pulikkal",
+    role: "MERN Stack & React Native Developer",
+    location: "Kerala, India",
+    experience: "2+ yrs",
+    specialty: "Full stack",
+    resumeUrl: "https://drive.google.com/file/d/1FBoIwujWiK6h7c3HMT01ojwlnauv4izt/view?usp=sharing",
     img: profileImg,
-    description: `I’m Jithin Pulikkal, a MERN-stack and React Native developer with experience building dynamic, scalable, and user-centric web and mobile applications. 
-I   work with MongoDB, Express.js, React.js, Node.js, React Native, and Expo to create clean, efficient, and maintainable solutions that solve real problems.
-
-    I take a structured and detail-oriented approach to development, whether I’m architecting a backend service, crafting responsive UIs, or building cross-platform mobile apps. 
-    I’m always exploring new tools and technologies to continuously improve. My goal is to deliver high-quality digital experiences and contribute to projects that create real impact.`,
+    headline: "Building clean, scalable products for web and mobile.",
+    description:
+        "I build responsive interfaces, practical backend systems, and cross-platform mobile apps with a strong focus on clarity, reliability, and user experience.",
+    longBio:
+        "I'm Jithin Pulikkal, a MERN-stack and React Native developer who enjoys taking products from idea to implementation. My work spans MongoDB, Express.js, React, Node.js, React Native, and Expo, with an emphasis on solutions that stay maintainable as they grow. I care about code quality, thoughtful UI, and building features that feel fast and dependable in everyday use.",
+    focus: [
+        "Responsive interfaces that feel polished on every screen.",
+        "Backend APIs that stay easy to extend and debug.",
+        "Cross-platform mobile work with React Native and Expo.",
+        "Readable codebases that teams can move quickly in.",
+    ],
 };
 
 const information = { userData };

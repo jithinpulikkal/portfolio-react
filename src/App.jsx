@@ -534,6 +534,12 @@ const jithin = {
                                 </div>
                             </div>
                         </section>
+
+                        <footer className={`border-t pt-8 ${theme.border}`}>
+                            <p className={`${monoClass} text-xs tracking-[0.16em] ${theme.mutedText}`}>
+                                © {currentYear} {userData.name}. Built with React and a cleaner editorial theme.
+                            </p>
+                        </footer>
                     </div>
                 </main>
             </div>

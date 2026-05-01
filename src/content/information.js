@@ -24,6 +24,100 @@ const userData = {
     ],
 };
 
-const information = { userData };
+const portfolioContent = {
+    sectionLinks: [
+        { id: "home", label: "Boot" },
+        { id: "about", label: "Profile" },
+        { id: "work", label: "Projects" },
+        { id: "stack", label: "Stack" },
+        { id: "contact", label: "Transmit" },
+    ],
+    stackGroups: [
+        {
+            title: "Interface Layer",
+            blurb: "Responsive frontends and interaction systems.",
+            keys: ["react", "js", "html", "css", "tailwind", "bootstrap", "redux", "vite"],
+        },
+        {
+            title: "Server Layer",
+            blurb: "APIs, data flow, persistence, and realtime features.",
+            keys: ["nodejs", "express", "mongodb", "postgresql", "mysql", "socket"],
+        },
+        {
+            title: "Deployment Layer",
+            blurb: "Workflow, tooling, versioning, and delivery habits.",
+            keys: ["git", "github", "postman", "npm", "aws", "jquery", "expo-go"],
+        },
+    ],
+    metrics: [
+        { label: "Latency", value: "Low", detail: "fast UI thinking" },
+        { label: "Mode", value: "Build", detail: "product + code" },
+        { label: "Focus", value: "Sharp", detail: "maintainable systems" },
+    ],
+    statLabels: {
+        experience: "Experience",
+        projects: "Projects",
+        tools: "Tools",
+        primaryRole: "Primary role",
+    },
+    focusHighlights: ["UI systems", "scalable APIs", "real-time features", "React Native delivery"],
+    heroReadouts: [
+        { label: "Current Focus", value: "Frontend systems + APIs" },
+        { label: "Preferred Build", value: "React, Node.js, MongoDB" },
+        { label: "Workflow", value: "Ship fast, keep code clean" },
+    ],
+    clockDetails: [
+        { label: "Timezone", value: "Asia/Kolkata" },
+        { label: "Region", value: "Kerala, India" },
+        { label: "Status", value: "System online" },
+    ],
+    hero: {
+        eyebrow: "Futuristic Full-Stack Console",
+        title: ["Designing", "code-driven", "digital systems."],
+        intro:
+            "I'm Jithin Pulikkal, a full stack developer building web platforms and mobile experiences with a clean engineering mindset. I like interfaces that feel alive, APIs that scale calmly, and codebases teams can keep shipping in.",
+        availability: "System online",
+        experienceSuffix: "experience",
+    },
+    supportModules: {
+        title: "Support Modules",
+        status: "Live",
+    },
+    clockPanel: {
+        terminalFileName: "jithin.system.js",
+        terminalStatus: "live output",
+        codeMission: "Build futuristic products with practical engineering",
+        codeStatus: "available for strong teams",
+    },
+    about: {
+        eyebrow: "Profile Log",
+        title: ["Engineer mindset.", "Product awareness."],
+    },
+    work: {
+        eyebrow: "Project Archive",
+        title: "Builds that balance visuals, logic, and shipping speed.",
+        blurb:
+            "A mix of commerce, messaging, and utility products built with practical stacks and a hands-on full-stack workflow.",
+        modulePrefix: "Module",
+        sourceLabel: "Source",
+        previewLabel: "Preview",
+    },
+    stack: {
+        eyebrow: "Technology Matrix",
+        title: "Tools across interface, backend, and deployment lanes.",
+    },
+    contact: {
+        eyebrow: "Transmission",
+        title: "Ready to build the next system.",
+        resumeLabel: "Open Resume",
+        linkedinLabel: "LinkedIn",
+        preferredRolesTitle: "Preferred roles",
+        preferredRolesText:
+            "Frontend-heavy full stack work, product-focused engineering teams, and fast-moving builds where performance and maintainability matter.",
+    },
+    footer: "Coded with React, and tailwind.",
+};
+
+const information = { userData, portfolioContent };
 
 export default information;

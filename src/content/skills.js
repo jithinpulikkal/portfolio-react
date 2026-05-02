@@ -3,7 +3,6 @@ const skills = [
   "css.svg",
   "bootstrap.svg",
   "js.svg",
-  "jquery.svg",
   "nodejs.svg",
   "express.svg",
   "react.svg",
@@ -17,10 +16,9 @@ const skills = [
   "npm.svg",
   "vite.svg",
   "tailwind.svg",
-  "aws.svg",
   "socket.png",
   "expo-go.png",
 
-]; // Add or remove skills here, make sure to include the image respective to the skill inside the public/skills folder and use the correct file extension
+];
 
 export default skills;

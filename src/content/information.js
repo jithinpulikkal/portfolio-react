@@ -4,6 +4,7 @@ const userData = {
     name: "Jithin Pulikkal",
     firstName: "Jithin",
     lastName: "Pulikkal",
+    initial: "P",
     role: "MERN Stack & React Native Developer",
     stack: "Full Stack Developer",
     location: "Kerala, India",
@@ -26,11 +27,11 @@ const userData = {
 
 const portfolioContent = {
     sectionLinks: [
-        { id: "home", label: "Boot" },
-        { id: "about", label: "Profile" },
+        { id: "home", label: "Home" },
+        { id: "about", label: "About" },
         { id: "work", label: "Projects" },
         { id: "stack", label: "Stack" },
-        { id: "contact", label: "Transmit" },
+        { id: "contact", label: "Contact" },
     ],
     stackGroups: [
         {
@@ -46,13 +47,13 @@ const portfolioContent = {
         {
             title: "Deployment Layer",
             blurb: "Workflow, tooling, versioning, and delivery habits.",
-            keys: ["git", "github", "postman", "npm", "aws", "jquery", "expo-go"],
+            keys: ["git", "github", "postman", "npm", "expo-go"],
         },
     ],
     metrics: [
-        { label: "Latency", value: "Low", detail: "fast UI thinking" },
-        { label: "Mode", value: "Build", detail: "product + code" },
-        { label: "Focus", value: "Sharp", detail: "maintainable systems" },
+        // { label: "Experience", value: "2+ yrs", detail: "web and mobile" },
+        { label: "Primary", value: "MERN", detail: "React, Node.js, MongoDB" },
+        { label: "Mobile", value: "Expo", detail: "React Native delivery" },
     ],
     statLabels: {
         experience: "Experience",
@@ -61,36 +62,16 @@ const portfolioContent = {
         primaryRole: "Primary role",
     },
     focusHighlights: ["UI systems", "scalable APIs", "real-time features", "React Native delivery"],
-    heroReadouts: [
-        { label: "Current Focus", value: "Frontend systems + APIs" },
-        { label: "Preferred Build", value: "React, Node.js, MongoDB" },
-        { label: "Workflow", value: "Ship fast, keep code clean" },
-    ],
-    clockDetails: [
-        { label: "Timezone", value: "Asia/Kolkata" },
-        { label: "Region", value: "Kerala, India" },
-        { label: "Status", value: "System online" },
-    ],
     hero: {
-        eyebrow: "Futuristic Full-Stack Console",
+        eyebrow: "Full-Stack Developer",
         title: ["Designing", "code-driven", "digital systems."],
         intro:
             "I'm Jithin Pulikkal, a full stack developer building web platforms and mobile experiences with a clean engineering mindset. I like interfaces that feel alive, APIs that scale calmly, and codebases teams can keep shipping in.",
         availability: "System online",
         experienceSuffix: "experience",
     },
-    supportModules: {
-        title: "Support Modules",
-        status: "Live",
-    },
-    clockPanel: {
-        terminalFileName: "jithin.system.js",
-        terminalStatus: "live output",
-        codeMission: "Build futuristic products with practical engineering",
-        codeStatus: "available for strong teams",
-    },
     about: {
-        eyebrow: "Profile Log",
+        eyebrow: "Profile",
         title: ["Engineer mindset.", "Product awareness."],
     },
     work: {

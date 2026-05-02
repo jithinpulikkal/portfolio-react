@@ -115,7 +115,7 @@ const themes = {
             "--border-soft": "rgba(109,93,252,0.12)",
             "--divider-color": "rgba(109,93,252,0.14)",
             "--frame-shadow": "0 24px 70px rgba(39,31,70,0.18), inset 0 1px 0 rgba(255,255,255,0.45)",
-            "--icon-chip-bg": "radial-gradient(circle at 30% 30%,rgba(150,124,255,0.48),rgba(37,32,55,0.92))",
+            "--icon-chip-bg": "radial-gradient(circle at 30% 28%,rgba(255,255,255,0.98),rgba(229,221,255,0.96) 48%,rgba(199,187,246,0.92))",
             "--hero-glow": "0 0 22px rgba(109,93,252,0.4)",
             "--success-bg": "rgba(226,219,255,0.78)",
             "--success-border": "rgba(109,93,252,0.24)",

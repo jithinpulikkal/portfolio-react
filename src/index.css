@@ -223,6 +223,13 @@ a {
     box-shadow: 0 0 24px rgba(125, 249, 255, 0.18);
 }
 
+html[data-theme="light"] .icon-chip {
+    color: #4d3ec9;
+    box-shadow:
+        0 14px 32px rgba(79, 62, 159, 0.18),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
 .tag-chip {
     border: 1px solid var(--border-color);
     border-radius: 9999px;

@@ -179,6 +179,19 @@ function App() {
             <div className="hud-radial pointer-events-none absolute inset-0" />
             <div className="hud-scanlines pointer-events-none absolute inset-0 opacity-20" />
 
+            <button
+                type="button"
+                onClick={() => setThemeName((current) => (current === "dark" ? "light" : "dark"))}
+                className="fixed bottom-5 right-5 z-60 inline-flex h-10 w-10 items-center justify-center rounded-full  bg-utility text-main shadow-lg transition duration-300  hover:text-accent md:top-8 md:right-8 "
+                aria-label={`Switch to ${themeName === "dark" ? "light" : "dark"} mode`}
+            >
+                {themeName === "dark" ? (
+                    <FaSun className="text-base text-accent p-0" />
+                ) : (
+                    <FaMoon className="text-base text-main" />
+                )}
+            </button>
+
             <div className="relative mx-auto w-full max-w-7xl px-3 pb-8 pt-4 md:px-4 md:pb-10">
                 <header className="sticky top-4 z-50">
                     <div className={`${frameClass} px-4 py-4 md:px-6`}>
@@ -209,18 +222,6 @@ function App() {
                                         {String(index + 1).padStart(2, "0")} {item.label}
                                     </a>
                                 ))}
-                                <button
-                                    type="button"
-                                    onClick={() => setThemeName((current) => (current === "dark" ? "light" : "dark"))}
-                                    className="inline-flex h-9 w-9 items-center justify-center rounded-full  bg-utility text-main transition duration-300 "
-                                    aria-label={`Switch to ${themeName === "dark" ? "light" : "dark"} mode`}
-                                >
-                                    {themeName === "dark" ? (
-                                        <FaSun className="text-sm text-accent p-0" />
-                                    ) : (
-                                        <FaMoon className="text-sm text-main" />
-                                    )}
-                                </button>
                             </div>
                         </div>
                     </div>

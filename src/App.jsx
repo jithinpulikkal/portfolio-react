@@ -3,11 +3,16 @@ import { motion } from "framer-motion";
 import {
     FaArrowRight,
     FaArrowUpRightFromSquare,
+    FaEnvelope,
+    FaFolderOpen,
     FaGithub,
+    FaHouse,
+    FaLayerGroup,
     FaLinkedinIn,
     FaMicrochip,
     FaMoon,
     FaSun,
+    FaUser,
 } from "react-icons/fa6";
 import information from "./content/information";
 import projects from "./content/projects";
@@ -41,6 +46,14 @@ const skillLabels = {
 const iconMap = {
     github: FaGithub,
     linkedin: FaLinkedinIn,
+};
+
+const sectionIconMap = {
+    home: FaHouse,
+    about: FaUser,
+    work: FaFolderOpen,
+    stack: FaLayerGroup,
+    contact: FaEnvelope,
 };
 
 const monoClass = "ui-mono";
@@ -196,32 +209,42 @@ function App() {
                 <header className="sticky top-4 z-50">
                     <div className={`${frameClass} px-4 py-4 md:px-6`}>
                         <div className="flex flex-col gap-4 lg:flex-row lg:items-center lg:justify-between">
-                            <a href="#home" className="flex min-w-0 items-center gap-4">
-                                <div className="relative flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-theme-strong icon-chip text-accent">
-                                    <FaMicrochip className="text-xl" />
+                            <a href="#home" className="flex w-full min-w-0 items-center gap-3 md:gap-4 lg:w-auto">
+                                <div className="relative flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-theme-strong icon-chip text-accent md:h-14 md:w-14">
+                                    <FaMicrochip className="text-lg md:text-xl" />
                                 </div>
                                 <div className="min-w-0">
                                     <p
-                                        className={`${displayClass} truncate text-xl font-semibold uppercase tracking-widest text-main`}
+                                        className={`${displayClass} truncate text-lg font-semibold uppercase tracking-widest text-main md:text-xl`}
                                     >
                                         {userData.firstName}
                                     </p>
-                                    <p className={`${monoClass} truncate text-xs uppercase tracking-widest text-muted`}>
+                                    <p
+                                        className={`${monoClass} max-w-[13.5rem] text-[0.68rem] uppercase leading-5 tracking-[0.14em] text-muted sm:max-w-none sm:text-xs sm:tracking-widest md:truncate`}
+                                    >
                                         {userData.role}
                                     </p>
                                 </div>
                             </a>
 
-                            <div className="flex flex-wrap items-center gap-2" aria-label="Primary">
-                                {sectionLinks.map((item, index) => (
-                                    <a
-                                        key={item.id}
-                                        href={`#${item.id}`}
-                                        className={`${monoClass} rounded-full border border-theme bg-utility px-4 py-2 text-xs uppercase tracking-widest text-muted transition duration-300 hover:border-theme-strong hover:text-main`}
-                                    >
-                                        {String(index + 1).padStart(2, "0")} {item.label}
-                                    </a>
-                                ))}
+                            <div className="grid w-full grid-cols-5 gap-2 sm:flex sm:flex-wrap sm:items-center lg:w-auto" aria-label="Primary">
+                                {sectionLinks.map((item, index) => {
+                                    const SectionIcon = sectionIconMap[item.id];
+
+                                    return (
+                                        <a
+                                            key={item.id}
+                                            href={`#${item.id}`}
+                                            className={`${monoClass} inline-flex h-10 items-center justify-center rounded-full border border-theme bg-utility px-3 text-center text-[0.68rem] uppercase tracking-[0.14em] text-muted transition duration-300 hover:border-theme-strong hover:text-main sm:h-auto sm:px-4 sm:py-2 sm:text-xs sm:tracking-widest`}
+                                            aria-label={item.label}
+                                        >
+                                            <SectionIcon className="text-sm sm:hidden" aria-hidden="true" />
+                                            <span className="hidden sm:inline">
+                                                {String(index + 1).padStart(2, "0")} {item.label}
+                                            </span>
+                                        </a>
+                                    );
+                                })}
                             </div>
                         </div>
                     </div>

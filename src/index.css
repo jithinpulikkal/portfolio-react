@@ -29,10 +29,10 @@ body {
 
 html[data-theme="light"] body {
     background:
-        radial-gradient(circle at top, rgba(109, 196, 220, 0.22), transparent 28%),
-        radial-gradient(circle at 80% 10%, rgba(65, 213, 232, 0.14), transparent 20%),
-        linear-gradient(180deg, #f5fbfe 0%, #eef6fb 52%, #e6f1f7 100%);
-    color: #09202d;
+        radial-gradient(circle at 18% 18%, rgba(165, 132, 255, 0.2), transparent 24%),
+        radial-gradient(circle at 82% 18%, rgba(77, 69, 160, 0.14), transparent 22%),
+        linear-gradient(135deg, #fbf7ff 0%, #eee7fb 52%, #ded5f2 100%);
+    color: #211b34;
 }
 
 #root {
@@ -357,16 +357,32 @@ a {
 }
 
 html[data-theme="light"] .hud-grid {
+    display: block;
     background-image:
-        linear-gradient(rgba(53, 132, 163, 0.09) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(53, 132, 163, 0.09) 1px, transparent 1px);
+        linear-gradient(rgba(72, 54, 170, 0.16) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(72, 54, 170, 0.16) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(circle at center, black 58%, transparent 96%);
 }
 
 html[data-theme="light"] .hud-radial {
     background:
-        radial-gradient(circle at 18% 18%, rgba(125, 249, 255, 0.18), transparent 22%),
-        radial-gradient(circle at 85% 15%, rgba(53, 132, 163, 0.12), transparent 18%),
-        radial-gradient(circle at 50% 100%, rgba(0, 255, 183, 0.05), transparent 24%);
+        radial-gradient(circle at 18% 18%, rgba(150, 124, 255, 0.22), transparent 22%),
+        radial-gradient(circle at 84% 16%, rgba(86, 75, 180, 0.18), transparent 20%),
+        radial-gradient(circle at 50% 100%, rgba(92, 74, 190, 0.1), transparent 26%),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.1), transparent 48%, rgba(22, 19, 34, 0.08));
+}
+
+html[data-theme="light"] .hud-scanlines {
+    display: block;
+    opacity: 0.14;
+    background: linear-gradient(
+        to bottom,
+        rgba(72, 54, 170, 0.12) 0,
+        rgba(72, 54, 170, 0.12) 1px,
+        transparent 1px,
+        transparent 4px
+    );
 }
 
 .hud-scanlines {

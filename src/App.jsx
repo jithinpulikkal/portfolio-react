@@ -89,42 +89,41 @@ const themes = {
     },
     light: {
         vars: {
-            "--app-bg": "#eef6fb",
-            "--text-main": "#09202d",
-            "--text-soft": "#325868",
-            "--text-muted": "#477489",
-            "--text-dim": "#5a8092",
-            "--text-subtle": "#6f8e9f",
-            "--accent": "#41d5e8",
-            "--accent-soft": "#4f88a4",
-            "--accent-dim": "#5d8ba0",
-            "--accent-strong": "#237f65",
-            "--panel-bg": "linear-gradient(180deg,rgba(255,255,255,0.86),rgba(230,242,248,0.94))",
-            "--surface-bg": "rgba(255,255,255,0.72)",
-            "--surface-soft": "rgba(236,247,252,0.92)",
-            "--surface-faint": "rgba(240,249,253,0.84)",
-            "--surface-elevated": "rgba(221,236,244,0.95)",
-            "--surface-strong": "linear-gradient(180deg,rgba(231,244,249,0.98),rgba(218,235,243,0.94))",
-            "--project-bg": "linear-gradient(180deg,rgba(228,242,248,0.98),rgba(215,233,241,0.96))",
-            "--project-fallback": "radial-gradient(circle at 30% 30%,rgba(65,213,232,0.18),rgba(214,234,242,0.96))",
-            "--chip-bg": "rgba(231,245,251,0.92)",
-            "--utility-bg": "rgba(236,247,252,0.96)",
-            "--utility-hover": "rgba(220,239,248,0.98)",
-            "--border-color": "rgba(53,132,163,0.2)",
-            "--border-strong": "rgba(53,132,163,0.32)",
-            "--border-soft": "rgba(53,132,163,0.14)",
-            "--divider-color": "rgba(53,132,163,0.16)",
-            "--frame-shadow":
-                "0 0 0 1px rgba(53,132,163,0.06), 0 24px 60px rgba(55,104,128,0.12), inset 0 1px 0 rgba(255,255,255,0.7)",
-            "--icon-chip-bg": "radial-gradient(circle at 30% 30%,rgba(125,249,255,0.42),rgba(202,242,252,0.96))",
-            "--hero-glow": "0 0 16px rgba(125,249,255,0.32)",
-            "--success-bg": "rgba(227,247,239,0.98)",
-            "--success-border": "rgba(35,127,101,0.18)",
-            "--success-text": "#237f65",
-            "--success-dot": "#33c38a",
-            "--terminal-text": "#1d9db6",
-            "--cta-bg": "linear-gradient(135deg,rgba(65,213,232,0.14),rgba(65,213,232,0.24))",
-            "--cta-bg-hover": "linear-gradient(135deg,rgba(65,213,232,0.22),rgba(65,213,232,0.3))",
+            "--app-bg": "#f4efff",
+            "--text-main": "#211b34",
+            "--text-soft": "#443a5d",
+            "--text-muted": "#5d5180",
+            "--text-dim": "#756996",
+            "--text-subtle": "#8d83a7",
+            "--accent": "#8A8AFF",
+            "--accent-soft": "#8671f7",
+            "--accent-dim": "#7f73b8",
+            "--accent-strong": "#5f49d8",
+            "--panel-bg": "linear-gradient(180deg,rgba(255,252,255,0.92),rgba(235,227,252,0.9))",
+            "--surface-bg": "rgba(250,247,255,0.82)",
+            "--surface-soft": "rgba(235,228,251,0.86)",
+            "--surface-faint": "rgba(244,239,255,0.76)",
+            "--surface-elevated": "rgba(255,252,255,0.8)",
+            "--surface-strong": "linear-gradient(180deg,rgba(255,252,255,0.86),rgba(229,219,251,0.82))",
+            "--project-bg": "linear-gradient(180deg,rgba(255,252,255,0.9),rgba(236,228,255,0.86))",
+            "--project-fallback": "radial-gradient(circle at 30% 30%,rgba(109,93,252,0.18),rgba(239,232,255,0.88))",
+            "--chip-bg": "rgba(235,228,251,0.84)",
+            "--utility-bg": "rgba(246,241,255,0.74)",
+            "--utility-hover": "rgba(225,215,251,0.88)",
+            "--border-color": "rgba(109,93,252,0.2)",
+            "--border-strong": "rgba(109,93,252,0.36)",
+            "--border-soft": "rgba(109,93,252,0.12)",
+            "--divider-color": "rgba(109,93,252,0.14)",
+            "--frame-shadow": "0 24px 70px rgba(39,31,70,0.18), inset 0 1px 0 rgba(255,255,255,0.45)",
+            "--icon-chip-bg": "radial-gradient(circle at 30% 30%,rgba(150,124,255,0.48),rgba(37,32,55,0.92))",
+            "--hero-glow": "0 0 22px rgba(109,93,252,0.4)",
+            "--success-bg": "rgba(226,219,255,0.78)",
+            "--success-border": "rgba(109,93,252,0.24)",
+            "--success-text": "#4d3ec9",
+            "--success-dot": "#8671f7",
+            "--terminal-text": "#6d5dfc",
+            "--cta-bg": "linear-gradient(135deg,rgba(109,93,252,0.16),rgba(58,52,160,0.2))",
+            "--cta-bg-hover": "linear-gradient(135deg,rgba(109,93,252,0.24),rgba(58,52,160,0.28))",
         },
     },
 };
@@ -213,11 +212,11 @@ function App() {
                                 <button
                                     type="button"
                                     onClick={() => setThemeName((current) => (current === "dark" ? "light" : "dark"))}
-                                    className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-theme bg-utility text-main transition duration-300 hover:border-theme-strong"
+                                    className="inline-flex h-9 w-9 items-center justify-center rounded-full  bg-utility text-main transition duration-300 "
                                     aria-label={`Switch to ${themeName === "dark" ? "light" : "dark"} mode`}
                                 >
                                     {themeName === "dark" ? (
-                                        <FaSun className="text-sm text-accent" />
+                                        <FaSun className="text-sm text-accent p-0" />
                                     ) : (
                                         <FaMoon className="text-sm text-main" />
                                     )}

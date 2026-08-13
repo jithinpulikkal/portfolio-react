@@ -1,10 +1,21 @@
 import chatApp from "../assets/Lets chat.jpeg";
 import alikStore from "../assets/alikstore.png";
 import attendanceApp from "../assets/attendanceApp.png";
+import drHelper from "../assets/Dr.Helper.png";
 import ledenChemicals from "../assets/ledenchemicals.png";
 import taskAssignApp from "../assets/taskAssignApp.png";
 
 const projects = [
+    // {
+    //     name: "Dr Helper App",
+    //     description:
+    //         "A medicine reference app for doctors to save medicine details, group different brand medicines with the same content, and categorize items like injections, tablets, and capsules.",
+    //     stack: ["React Native", "Mobile App", "Medicine Catalog"],
+    //     sourceCode: "",
+    //     img: drHelper,
+    //     preview: "https://github.com/jithinpulikkal/apps/tree/main/Dr.%20Helper",
+    //     previewLabel: "View app",
+    // },
     // {
     //     name: "Task Assign App",
     //     description:
@@ -22,7 +33,7 @@ const projects = [
     //     stack: ["React Native", "Mobile App", "Attendance Management"],
     //     sourceCode: "",
     //     img: attendanceApp,
-    //     preview: "",
+    //     preview: "https://github.com/jithinpulikkal/apps/tree/main/Attendance%20App",
     //     previewLabel: "View app",
     // },
     {

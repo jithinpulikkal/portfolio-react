@@ -1,7 +1,18 @@
 import chatApp from "../assets/Lets chat.jpeg";
 import alikStore from "../assets/alikstore.png";
+import ledenChemicals from "../assets/ledenchemicals.png";
 
 const projects = [
+    {
+        name: "Leden Chemicals Website",
+        description:
+            "A hosted business website for Leden Chemicals, built to present the company's chemical products and services with a clean, responsive web experience.",
+        stack: ["React", "Business Website", "Responsive UI"],
+        sourceCode: "",
+        img: ledenChemicals,
+        preview: "https://www.ledenchemicals.com/",
+        previewLabel: "Visit website",
+    },
     {
         name: "Alik Store Mobile App",
         description:
@@ -13,7 +24,7 @@ const projects = [
         previewLabel: "View app",
     },
     {
-        name: "Alik Store Web",
+        name: "Alik Store Website",
         description:
             "A responsive ecommerce storefront for browsing accessories and branded devices with category-led navigation, promotional offers, and a clean purchase path.",
         stack: ["React", "Ecommerce", "Responsive UI"],

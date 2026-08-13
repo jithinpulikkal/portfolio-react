@@ -1,8 +1,30 @@
 import chatApp from "../assets/Lets chat.jpeg";
 import alikStore from "../assets/alikstore.png";
+import attendanceApp from "../assets/attendanceApp.png";
 import ledenChemicals from "../assets/ledenchemicals.png";
+import taskAssignApp from "../assets/taskAssignApp.png";
 
 const projects = [
+    // {
+    //     name: "Task Assign App",
+    //     description:
+    //         "A task assignment and tracking app built to help teams create tasks, assign responsibilities, monitor progress, and keep daily work organized.",
+    //     stack: ["React Native", "Mobile App", "Task Management"],
+    //     sourceCode: "",
+    //     img: taskAssignApp,
+    //     preview: "",
+    //     previewLabel: "View app",
+    // },
+    // {
+    //     name: "Staff Attendance App",
+    //     description:
+    //         "A staff attendance management app built to help teams record attendance, monitor daily staff activity, and keep attendance workflows organized.",
+    //     stack: ["React Native", "Mobile App", "Attendance Management"],
+    //     sourceCode: "",
+    //     img: attendanceApp,
+    //     preview: "",
+    //     previewLabel: "View app",
+    // },
     {
         name: "Leden Chemicals Website",
         description:
